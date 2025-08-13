@@ -22,12 +22,12 @@ If permission is granted, you must clearly credit me in the title, video, pinned
 
 ## If You Fail To Follow This I Will Take Legal Action Against You
 **It can mean:**
-YouTube take down request
-Discord server removal request
-GitHub post removal
-Or even court
+YouTube take down request.
+Discord server removal request.
+GitHub post removal.
+Or even court.
 
 ## About Devs
-Script made by **brotabrr** on GitHub and YouTube
-Original idea by **NexitySecond** on GitHub and **@nexity4559** on YouTube
-GUI made by **stysscythe** on GitHub, all rights for GUI belong to them
+Script made by **brotabrr** on GitHub and YouTube.
+Original idea by **NexitySecond** on GitHub and **@nexity4559** on YouTube.
+GUI made by **stysscythe** on GitHub, all rights for GUI belong to them.
