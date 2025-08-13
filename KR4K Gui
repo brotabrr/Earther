@@ -107,7 +107,7 @@ function Lib.Window(Title)
 	TabNavigator.Position = UDim2.new(0.00733371312, 0, 0, 0)
 	TabNavigator.Size = UDim2.new(0, 132, 0, 275)
 	TabNavigator.ZIndex = 4
-	TabNavigator.CanvasSize = UDim2.new(0, 0, 100, 0)
+	TabNavigator.CanvasSize = UDim2.new(0, 0, 10, 0) -- CHANGE THIS TO MAKE TAB BAR HAVE MORE TABS!!!
 
 	UIPadding.Parent = TabNavigator
 	UIPadding.PaddingTop = UDim.new(0, 12)
