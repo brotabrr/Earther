@@ -7,7 +7,7 @@ Plane Crazy Earth Bending Roblox Scripts
 ## You are free to:
 Use, share, and adapt the script for personal or non-commercial projects.
 
-## Uou *must*:
+## You *must*:
 Give clear credit to **brotabrr** (GitHub & YouTube) as the original author.
 Mention **stysscythe** (GitHub) for the GUI.
 Mention **NexitySecond** (GitHub) and/or **@nexity4559** (YouTube) as the original idea source.
