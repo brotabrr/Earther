@@ -240,6 +240,8 @@ function Lib.Window(Title)
 		TabContent.Position = UDim2.new(0.331549704, 0, 0.153153151, 0)
 		TabContent.Size = UDim2.new(0, 295, 0, 275) -- CHANGE THIS TO POSSIBLY CHANGE CONTENT (buttons, sliders, toggles, labels) AREA SIZE (note to self, remember to remove this note) (500 uses (edit, used(edit, why didint i just change it?(edit, why i wrote that(edit, bro i think im dumb))) to be 275) (EDIT IT DOES NOT CHANGE SCROLLING FRAME, IT CHANGES OTHER THING FULLY BReAKING IT)<
 		TabContent.CanvasSize = UDim2.new(0, 0, 0, 600) -- NOTE TO SELF, I ADDED THIS TO SEE IF I CAN CHANGE SCROLLING FRAME
+		TabContent.ScrollingEnabled = true -- added this
+		TabContent.ScrollingDirection = Enum.ScrollingDirection.Y -- and this line cuz chat gpt said it could work cuz my brain is slowly dying
 		TabContent.ZIndex = 4
 		TabContent.ClipsDescendants = true
 
