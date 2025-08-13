@@ -89,7 +89,7 @@ function Lib.Window(Title)
 
 	TabFrame.Name = "TabFrame" -- TAB FRAME IS THE THING ON LEFT WHERE ALL TABS ARE
 	TabFrame.Parent = Main
-	TabFrame.BackgroundColor3 = Color3.fromRGB(18, 150, 24)
+	TabFrame.BackgroundColor3 = Color3.fromRGB(18, 15, 24)
 	TabFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	TabFrame.BorderSizePixel = 0
 	TabFrame.Position = UDim2.new(0.0198237877, 0, 0.153153151, 0)
