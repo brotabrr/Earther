@@ -91,7 +91,7 @@ function Lib.Window(Title)
 	TabFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	TabFrame.BorderSizePixel = 0
 	TabFrame.Position = UDim2.new(0.0198237877, 0, 0.153153151, 0)
-	TabFrame.Size = UDim2.new(0, 134, 0, 275)
+	TabFrame.Size = UDim2.new(0, 1340, 0, 275) -- CHANGED 134 TO 1340 AS TEST,  THIS IS NOTE TO SELF TO REMOVE IT!
 	TabFrame.ZIndex = 4
 
 	UICorner.CornerRadius = UDim.new(0, 7)
