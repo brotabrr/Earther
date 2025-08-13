@@ -4,7 +4,7 @@
 -- note to self : scrolling frames need .CanvasSize to be aple to change it, .Size just fucks up everything (edit, how tf do i change the button holding areas size)
 -- WHY THE FUCK DOES GITHUB NOT HAVE FUNCTION TO FIND SPECIFIC WORD AARGH (edit, control+F
 -- psst UIListLayout was constantly forcefully resizing it
---[ 
+--[[ 
 TO CHANGE AREA WHERE SLIDERS BUTTONS TOGGLES LABELS ETC ARE CHANGE THESE LINES
 
 ContentLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
@@ -12,7 +12,7 @@ ContentLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
 end)
 
 MORE SPECIFICALLY "+ 200"
-]--
+]]--
 -- quick note, ronaldo is the goat.
 local Lib = {}
 
