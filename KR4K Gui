@@ -1,6 +1,7 @@
 -- GUI SCRIPT MADE BY stysscythe ON GITHUB!!!
 -- I DO NOT TAKE ANY CREDITS FOR THIS GUI, I ONLY MODIFIED IT TINY BIT TO FIT MORE BUTTONS!!!
 -- ps im too lazy to remove all useless dumb notes
+-- note to self : scrolling frames need .CanvasSize to be aple to change it, .Size just fucks up everything
 
 
 -- quick note, ronaldo is the goat.
