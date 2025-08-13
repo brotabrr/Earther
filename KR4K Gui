@@ -236,7 +236,7 @@ function Lib.Window(Title)
 		TabContent.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		TabContent.BorderSizePixel = 0
 		TabContent.Position = UDim2.new(0.331549704, 0, 0.153153151, 0)
-		TabContent.Size = UDim2.new(0, 295, 0, 275) -- CHANGE THIS TO POSSIBLY CHANGE CONTENT (buttons, sliders, toggles, labels) AREA SIZE (note to self, remember to remove this note)
+		TabContent.Size = UDim2.new(0, 295, 0, 500) -- CHANGE THIS TO POSSIBLY CHANGE CONTENT (buttons, sliders, toggles, labels) AREA SIZE (note to self, remember to remove this note) (500 uses to be 275)
 		TabContent.ZIndex = 4
 		TabContent.ClipsDescendants = true
 
