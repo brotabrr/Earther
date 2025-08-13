@@ -3,6 +3,7 @@
 -- ps im too lazy to remove all useless dumb notes
 -- note to self : scrolling frames need .CanvasSize to be aple to change it, .Size just fucks up everything (edit, how tf do i change the button holding areas size)
 -- WHY THE FUCK DOES GITHUB NOT HAVE FUNCTION TO FIND SPECIFIC WORD AARGH (edit, control+F
+-- psst UIListLayout was constantly forcefully resizing it
 
 -- quick note, ronaldo is the goat.
 local Lib = {}
@@ -254,6 +255,16 @@ function Lib.Window(Title)
 		ContentLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
 		ContentLayout.SortOrder = Enum.SortOrder.LayoutOrder
 		ContentLayout.Padding = UDim.new(0,12)
+
+-- CHATGPTS ADDITION STARTS HERE
+		-- Force the scrollable area to be taller without changing visible size
+		ContentLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+    		TabContent.CanvasSize = UDim2.new(0, 0, 0, ContentLayout.AbsoluteContentSize.Y + 200)
+		end)
+
+		TabContent.ScrollBarThickness = 6
+		TabContent.ScrollingDirection = Enum.ScrollingDirection.Y
+-- CHATGPTS ADDITION ENDS HERE
 
 		if first then
 			first = false
