@@ -87,9 +87,9 @@ function Lib.Window(Title)
 	MainCorner.Name = "MainCorner"
 	MainCorner.Parent = Main
 
-	TabFrame.Name = "TabFrame"
+	TabFrame.Name = "TabFrame" -- TAB FRAME IS THE THING ON LEFT WHERE ALL TABS ARE
 	TabFrame.Parent = Main
-	TabFrame.BackgroundColor3 = Color3.fromRGB(18, 150, 24) -- changed this color from 18, 15, 24 to 18, 150, 24 to easily see when github updated 
+	TabFrame.BackgroundColor3 = Color3.fromRGB(18, 150, 24)
 	TabFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	TabFrame.BorderSizePixel = 0
 	TabFrame.Position = UDim2.new(0.0198237877, 0, 0.153153151, 0)
@@ -109,7 +109,7 @@ function Lib.Window(Title)
 	TabNavigator.Position = UDim2.new(0.00733371312, 0, 0, 0)
 	TabNavigator.Size = UDim2.new(0, 132, 0, 275)
 	TabNavigator.ZIndex = 4
-	TabNavigator.CanvasSize = UDim2.new(0, 0, 0, 10) -- CHANGE THIS TO MAKE TAB BAR ~~HAVE~~ __HOLD__ MORE TABS!!! (edit this isint dc, there isint markings...)
+	TabNavigator.CanvasSize = UDim2.new(0, 0, 0, 100) -- CHANGE THIS TO MAKE TAB BAR ~~HAVE~~ __HOLD__ MORE TABS!!! (edit this isint dc, there isint markings...)
 
 	UIPadding.Parent = TabNavigator
 	UIPadding.PaddingTop = UDim.new(0, 12)
