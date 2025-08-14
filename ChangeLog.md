@@ -39,7 +39,10 @@
 **negatives**
 - accidentally broke disk aura
 
-# V1.1.1 & V1.1.2
+
+
+small update
+V1.1.1 & V1.1.2
 13/8/2025 
 small update
 made info tab more calm
