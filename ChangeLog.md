@@ -44,7 +44,7 @@
 small update
 made info tab more calm
 
-**old :**
+**old code snippet:**
 - local InfoTab = Window.CreateTab('Info')
 - InfoTab.CreateLabel("IMPORTANT! PLEASE READ!!!")
 - InfoTab.CreateDivider("Dev Info")
@@ -64,7 +64,7 @@ made info tab more calm
 - InfoTab.CreateLabel("REMEMBER THAT I CAN BAN YOU ANYTIME!!!")
 - InfoTab.CreateLabel("WHEN YOU USE THIS SCRIPT YOU AGREE TO ALL OF THESE AND I CAN ANYTIME EDIT THESE RULES!!!")
 
-**new :**
+**new code snippet:**
 - local InfoTab = Window.CreateTab('Info')
 - InfoTab.CreateLabel("IMPORTANT! PLEASE READ!!!")
 - InfoTab.CreateDivider("Dev Info")
