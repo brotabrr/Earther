@@ -31,3 +31,7 @@ Use, share, and adapt the script for personal or non-commercial projects.
 - Script made by **brotabrr** on GitHub and YouTube.
 - Original idea by **NexitySecond** on GitHub and **@nexity4559** on YouTube.
 - GUI made by **stysscythe** on GitHub, all rights for GUI belong to them.
+
+
+- remember that i have rights to making "auras" or other shapes on planecrazy using "BlockStd" parts (plane crazys parts that you - player -  can place down) and moving them with body gyro, body position, and cframe,
+- i still have taken alot help from NexitySecond but i have permission to take inspiration aslong as i learn from it
