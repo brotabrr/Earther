@@ -1,3 +1,49 @@
+# V1.2.5
+12/11/2025
+"MultiAura"
+
+**additions**
+- added advanced mode
+- - button in settings to enable it
+- -  allows you to equip multiple auras at once
+- -  allows you to adjust each auras settings individually
+
+- added delay
+- -  updates blocks in steps (toggleable
+- - - greatly reduces lag by making few blocks update at time
+-# without it updates all blocks every frame
+
+- added block saving 
+- -  makes ball and spiral be fully on top of ground
+-# without it half of aura is under ground
+
+- optimization
+- - greatly improved loops and added anti lag settings
+- - blocks now lag client only, if you have thousands of blocks other peoples dont lag as much as you do
+
+
+**changes**
+- changes max speed range 
+- - 0 to +10 -> -5 to +5
+-# im sorry but its needed to reduce flinging, lag and client-server sync
+
+- fixed spiral strands
+- - now spiral strands create alternate spirals
+-# past just overlapped blocks
+
+
+**negatives**
+- disk aura officially deleted
+
+
+**known bugs**
+- thickness is buggy on advanced mode (making weird shapes if you have little blocks)
+- thickness is broken in advanced mode
+- polygon rotate blocks broken in advanced
+- alternate delay does nothing in legacy
+- in advanced when turning off aura  while another aura is on, all blocks from aura turned off tp to 0,0,0 before going to right position
+
+
 # V1.1.0
 13/8/2025
 "Dozengon"
