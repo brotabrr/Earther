@@ -31,8 +31,8 @@ if targetFolder then
 
                             local bodyPos = Instance.new("BodyPosition", part)
                             bodyPos.MaxForce = Vector3.new(500000, 500000, 500000)
-                            bodyPos.D = 1000 -- Increased damping to reduce lag
-                            bodyPos.P = 100000 -- Increased power for responsiveness
+                            bodyPos.D = 1000
+                            bodyPos.P = 100000
 
                             local bodyGyro = Instance.new("BodyGyro", part)
                             bodyGyro.MaxTorque = Vector3.new(500000, 500000, 500000)
