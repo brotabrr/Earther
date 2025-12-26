@@ -11,13 +11,6 @@ local bodyParts = {
     {name = "Right Leg", color = Color3.fromRGB(255, 0, 255)}
 }
 
--- List of body parts to ignore rotation for
-local ignoreRotation = {
-    Head = true,
-    ["Left Arm"] = true,
-    ["Right Arm"] = true
-}
-
 local targetFolder = game.Workspace:FindFirstChild("vauhtit4 Aircraft")-- CHANGE VAUHTIT4 TO YOUR USERNAME!
 if targetFolder then
     for _, model in ipairs(targetFolder:GetChildren()) do
@@ -33,8 +26,8 @@ if targetFolder then
 
                             local bodyPos = Instance.new("BodyPosition", part)
                             bodyPos.MaxForce = Vector3.new(500000, 500000, 500000)
-                            bodyPos.D = 1000 -- Increased damping to reduce lag
-                            bodyPos.P = 100000 -- Increased power for responsiveness
+                            bodyPos.D = 1000
+                            bodyPos.P = 100000
 
                             local bodyGyro = Instance.new("BodyGyro", part)
                             bodyGyro.MaxTorque = Vector3.new(500000, 500000, 500000)
@@ -44,15 +37,6 @@ if targetFolder then
                             task.spawn(function()
                                 while part and part.Parent and characterPart and humanoid do
                                     local targetPosition = characterPart.Position + characterPart.Velocity * 0.05
-
-                                    -- Apply 90-degree X rotation if not in ignore list
-                                    local targetRotation
-                                    if ignoreRotation[bodyPart.name] then
-                                        targetRotation = characterPart.CFrame
-                                    else
-                                        targetRotation = characterPart.CFrame * CFrame.Angles(math.rad(90), 0, 0)
-                                    end
-
                                     bodyPos.Position = targetPosition
                                     bodyGyro.CFrame = targetRotation
 
