@@ -8,10 +8,11 @@ local bodyParts = {
     {name = "Left Arm", color = Color3.fromRGB(0, 0, 255)},
     {name = "Right Arm", color = Color3.fromRGB(255, 255, 0)},
     {name = "Left Leg", color = Color3.fromRGB(0, 255, 255)},
-    {name = "Right Leg", color = Color3.fromRGB(255, 0, 255)}
+    {name = "Right Leg", color = Color3.fromRGB(255, 0, 255)},
+
 }
 
-local targetFolder = game.Workspace:FindFirstChild("vauhtit4 Aircraft")-- CHANGE VAUHTIT4 TO YOUR USERNAME!
+local targetFolder = game.Workspace:FindFirstChild("YOURUSERNAME Aircraft") -- REPLACE WITH YOUR USERNAME!!!
 if targetFolder then
     for _, model in ipairs(targetFolder:GetChildren()) do
         if model:IsA("Model") and model.Name == "BlockStd" then
@@ -37,6 +38,8 @@ if targetFolder then
                             task.spawn(function()
                                 while part and part.Parent and characterPart and humanoid do
                                     local targetPosition = characterPart.Position + characterPart.Velocity * 0.05
+                                    local targetRotation = characterPart.CFrame
+
                                     bodyPos.Position = targetPosition
                                     bodyGyro.CFrame = targetRotation
 
